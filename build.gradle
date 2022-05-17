@@ -65,8 +65,8 @@ subprojects {
             )
 
             kotlin {
-                jvm()
-                testAll.dependsOn "jvmTest"
+//                jvm()
+//                testAll.dependsOn "jvmTest"
                 sourceSets {
                     nonJvmMain { dependsOn(commonMain) }
                     nonJvmTest { dependsOn(commonTest) }
@@ -76,8 +76,8 @@ subprojects {
                     desktopTest { dependsOn(nativeTest) }
                     jvmCommonMain { dependsOn(commonMain) }
                     jvmCommonTest { dependsOn(commonTest) }
-                    jvmMain { dependsOn(jvmCommonMain) }
-                    jvmTest { dependsOn(jvmCommonTest) }
+//                    jvmMain { dependsOn(jvmCommonMain) }
+//                    jvmTest { dependsOn(jvmCommonTest) }
                 }
 
                 if (isAndroidProject) {
