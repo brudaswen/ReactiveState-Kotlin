@@ -1,0 +1,8 @@
+$dokka.format:gfm-v1
+$dokka.linkExtension:md
+$dokka.location:com.ensody.reactivestate.test////PointingToDeclaration/reactivestate-test/com.ensody.reactivestate.test/index.md
+$dokka.location:com.ensody.reactivestate.test/AndroidCoroutineTest///PointingToDeclaration/reactivestate-test/com.ensody.reactivestate.test/-android-coroutine-test/index.md
+$dokka.location:com.ensody.reactivestate.test/AndroidCoroutineTest/AndroidCoroutineTest/#/PointingToDeclaration/reactivestate-test/com.ensody.reactivestate.test/-android-coroutine-test/-android-coroutine-test.md
+$dokka.location:com.ensody.reactivestate.test/AndroidCoroutineTest/instantTaskExecutorRule/#/PointingToDeclaration/reactivestate-test/com.ensody.reactivestate.test/-android-coroutine-test/instant-task-executor-rule.md
+com.ensody.reactivestate.test
+
